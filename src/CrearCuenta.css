@@ -1,0 +1,151 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.custom-navbar {
+    background-color: #ff8c00;
+}
+
+.navbar-brand {
+    font-weight: 900;
+    line-height: normal;
+}
+
+.nav-menu-list {
+    width: 499px;
+}
+
+.nav-circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #fff4ce;
+}
+
+.nav-line {
+    height: 31px;
+    border-left: 4px solid #ffffff;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-container .dropdown-menu[data-bs-popper] {
+    position: absolute;
+    left: -290% !important;
+}
+
+.dropdown-container .dropdown-menu {
+    --bs-dropdown-link-active-bg: #ffc107 !important;
+}
+
+.dropdown-container-2 {
+    position: relative;
+}
+
+.dropdown-container-2 .dropdown-menu[data-bs-popper] {
+    position: absolute;
+    left: -470% !important;
+}
+
+.dropdown-container-2 #dropdownMenuButton {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.dropdown-container-2 .dropdown-menu {
+    --bs-dropdown-link-active-bg: #ffc107 !important;
+}
+
+.dropdown-container-3 {
+    position: relative;
+}
+
+.dropdown-container-3 .dropdown-menu[data-bs-popper] {
+    position: absolute;
+    left: -470% !important;
+}
+
+.dropdown-container-3 .dropdown-menu {
+    --bs-dropdown-link-active-bg: #ffc107 !important;
+}
+
+.btn-close {
+    box-shadow: none !important;
+}
+
+#navbarNav2 {
+    width: 282px;
+    background-color: #ffffff;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.nav-search {
+    position: relative;
+}
+
+.icon-search {
+    position: absolute;
+    color: #abababff;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.offcanvas .specific-class {
+    border-bottom: solid 1px #eff1f3;
+}
+
+.specific-class {
+    flex-grow: 0 !important;
+}
+
+.fa-circle-user {
+    color: #8c8c8c;
+    margin-left: 3px;
+    margin-right: 17px;
+}
+
+.fa-house {
+    color: #8c8c8c;
+    margin-left: 1px;
+    margin-right: 18px;
+}
+
+.fa-phone {
+    color: #8c8c8c;
+    margin-left: 3px;
+    margin-right: 18px;
+}
+
+.header-bottom-container {
+    height: 100px;
+    background-color: #ff9900;
+}
+
+.account-line {
+    width: 99%;
+    height: 2px;
+    background-color: #eff1fe;
+}
+
+.form-check-input:checked {
+    background-color: #ffc107 !important;
+    border-color: #ffc107 !important;
+}
